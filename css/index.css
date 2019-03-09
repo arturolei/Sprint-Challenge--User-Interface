@@ -395,3 +395,88 @@ Here is the rough breakdown of what each .about-[division]-section chunk of CSS 
     margin-top:18px;
     margin-bottom:10px;
 }
+
+/* CSS for Stretch Goal 1: Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  */
+
+.container.products-page{
+    /*Will match width of larger container*/
+    width:100%
+}
+
+.container.products-page h2{
+    font-weight:bolder;
+}
+
+.container.products-page .product-list img{
+    margin-top:10px;
+    margin-bottom:30px;
+
+}
+
+.container.products-page .product-list {
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-right:20px;
+    padding-left:20px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-items:flex-start;
+    align-content:flex-start;
+}
+
+.container.products-page .product-list div{
+    width:370px;
+    height:236px;
+    margin:10px;
+    border-bottom: 2px solid black; 
+    
+}
+
+
+.container.products-page .product-list div p{
+    margin-bottom:20px;
+}
+
+/*
+CSS for Additional Fonts
+font-family: 'Srisakdi', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Indie Flower', cursive;
+
+*/
+
+.container.products-page .product-list div h2.nexus{
+    color:sienna;
+    font-family: 'Srisakdi', cursive;
+
+}
+
+
+.container.products-page .product-list div h2.spinner{
+    color:dodgerblue;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+
+.container.products-page .product-list div h2.tyrell{
+    color:darkred;
+}
+
+
+.container.products-page .product-list div h2.agentk{
+    color:darkmagenta;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.container.products-page .product-list button{
+    font-size:16px;
+    width:131px;
+    height:39px;
+    background-color: white;
+    border-radius:10px;
+    border: 2px solid black;
+    display:inline-block;
+}
