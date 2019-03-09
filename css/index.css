@@ -324,7 +324,13 @@ footer nav a {
 }
 
 
-/*CSS for for About Page*/
+/*CSS for for About Page:
+
+Here is the rough breakdown of what each .about-[division]-section chunk of CSS corresponds to. 
+- .about-top-section = section with top paragraph area with "About" heading
+- .about-mid-section = section with four blocks consisting of an image, a heading, a paragraph, and a button.
+- .about-lower-section = section that contains a closing paragraph block.
+*/
 
 .container.about-page{
     width:100%;
