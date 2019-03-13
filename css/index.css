@@ -403,6 +403,15 @@ Here is the rough breakdown of what each .about-[division]-section chunk of CSS 
     width:100%
 }
 
+.container.products-page .products-intro-section{
+    width:100%;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom:20px;
+    margin-bottom:10px;
+    border-bottom: 1px dashed black;
+}
+
 .container.products-page h2{
     font-weight:bolder;
 }
@@ -429,7 +438,7 @@ Here is the rough breakdown of what each .about-[division]-section chunk of CSS 
     width:370px;
     height:236px;
     margin:10px;
-    border-bottom: 2px solid black; 
+    /*border-bottom: 2px solid black;*/
     
 }
 
